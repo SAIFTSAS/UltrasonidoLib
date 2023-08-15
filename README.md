@@ -1,14 +1,10 @@
-¡Por supuesto! Aquí tienes una pequeña documentación para la librería de ultrasonido que creamos anteriormente:
-
----
-
 # UltrasonidoLib - Documentación
 
 La librería **UltrasonidoLib** permite medir la distancia utilizando un sensor de ultrasonido HC-SR04 en plataformas Arduino. Proporciona una interfaz sencilla para configurar y medir distancias utilizando el sensor de ultrasonido.
 
 ## Instalación
 
-1. Descarga la carpeta "UltrasonidoLib" desde el repositorio [GitHub](https://github.com/tuusuario/UltrasonidoLib) o crea la estructura de archivos manualmente en la carpeta "libraries" de tu entorno de desarrollo Arduino.
+1. Descarga la carpeta "UltrasonidoLib" desde el repositorio [GitHub](https://github.com/SAIFTSAS/UltrasonidoLib) o crea la estructura de archivos manualmente en la carpeta "libraries" de tu entorno de desarrollo Arduino.
 
 2. Reinicia el entorno de desarrollo Arduino para que reconozca la nueva librería.
 
@@ -72,7 +68,3 @@ void loop() {
 
 - Asegúrate de conectar los pines Trig y Echo del sensor de ultrasonido a los pines especificados al crear la instancia de la librería.
 - El cálculo de la distancia se basa en la velocidad del sonido en el aire, que es aproximadamente 343 metros por segundo (a 20°C). La fórmula utilizada es: `distancia = duración del pulso * 0.034 / 2`.
-
----
-
-¡Eso es todo! Ahora tienes una documentación básica para tu librería de ultrasonido. Puedes personalizarla y agregar más detalles según tus necesidades y los requisitos de tu proyecto.
